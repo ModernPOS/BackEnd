@@ -15,7 +15,7 @@
 ## 1️⃣ Veritabanı Genel Bakış
 
 **Veritabanı:** SQL Server 2022  
-**ORM:** Entity Framework Core 8  
+**ORM:** Entity Framework Core 10  
 **Migration:** Code-First Approach
 
 ---
@@ -135,7 +135,7 @@ Sales ──▶ Cashiers
 ## 1️⃣ Ma'lumotlar Bazasi Umumiy Ko'rinishi
 
 **Ma'lumotlar Bazasi:** SQL Server 2022  
-**ORM:** Entity Framework Core 8  
+**ORM:** Entity Framework Core 10  
 **Migration:** Code-First yondashuv
 
 ## 2️⃣ Database Schema (Jadval tuzilmasi)
