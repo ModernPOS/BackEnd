@@ -261,7 +261,7 @@ Detaylı database schema için: [03-DATABASE-DESIGN.md](03-DATABASE-DESIGN.md)
 
 ---
 
-## ���� Risk Yönetimi
+## 🔟 Risk Yönetimi
 
 ### ⚠️ Potansiyel Riskler
 
@@ -297,4 +297,43 @@ Zamonaviy texnologiyalar bilan ishlab chiqilgan, kengaytiriladigan, xavfsiz va f
 
 ### 👥 Maqsadli Foydalanuvchilar
 - 🏪 Chakana do'konlar
-
+- 🛒 Supermarketlar
+- ☕ Kafe va restoranlar
+- 🍕 Fast-food tarmoqlari
+- 💼 Kichik va o'rta bizneslar
+
+---
+
+## 2️⃣ Loyiha Qamrovi
+
+Yuqoridagi Türkçe kısmındaki kapsam aynen geçerlidir.
+
+---
+
+## 3️⃣ Texnologiya Stek
+
+Yuqoridagi Türkçe kısmındaki teknoloji steki aynen geçerlidir.
+
+---
+
+## ✅ Muvaffaqiyat Mezonlari
+
+- ✅ API javob vaqti < 200ms
+- ✅ 99.9% ishlash vaqti
+- ✅ 80%+ kod qamrovi
+- ✅ Kritik xavfsizlik zaifliklar yo'q
+- ✅ 1000+ bir vaqtda foydalanuvchilarga kengaytirish
+
+---
+
+## 📞 Aloqa
+
+**GitHub Organization:** [@ModernPOS](https://github.com/ModernPOS)
+
+**Loyiha Jamoasi:**
+- Lead Developer: Izzatbek
+- AI Assistant: GitHub Copilot
+
+---
+
+**⭐ Agar loyiha yoqsa, yulduzcha bering!**
