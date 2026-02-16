@@ -19,6 +19,12 @@ Abstraction for fiscal printers, scanners, and terminals.
 
 ---
 
+## Technical Recommendations (Advice)
+- **Backend**: **.NET 10 (C#)** is the best choice. It provides top-tier performance and excellent libraries for hardware integration (Serial/USB).
+- **Desktop**: **WPF + DevExpress** is recommended over WinForms. WPF's MVVM pattern aligns perfectly with Clean Architecture, and it provides a far more "premium" and modern UI/UX with smooth animations and better scaling on high-resolution monitors.
+
+---
+
 ## Türkçe Rehber
 ### 1. Domain Katmanı
 Varlıklar (Entities), Değer Nesneleri ve İş Mantığını içerir. Dış bağımlılığı yoktur.
@@ -31,6 +37,12 @@ Fiskal yazıcılar, barkod okuyucular ve terminaller için soyutlama katmanı.
 
 ---
 
+## Teknik Öneriler (.NET 10 & Desktop)
+- **Backend**: **.NET 10 (C#)** kesinlikle en mantıklı tercih. Donanım entegrasyonu (Serial/USB) için en güçlü kütüphanelere ve en yüksek performansa sahiptir.
+- **Masaüstü (Desktop)**: **WPF + DevExpress**, WinForms'a göre çok daha mantıklıdır. WPF'in MVVM deseni "Clean Architecture" ile tam uyumludur. Ayrıca yüksek çözünürlüklü ekranlarda (4K) çok daha iyi ölçeklenir ve çok daha "premium" (wow factor) bir arayüz sunar.
+
+---
+
 ## O'zbek Qollanma
 ### 1. Domain Qatlami
 Entitilar, Value Objectlar va Biznes qoidalari. Tashqi kutubxonalarga bog'lanmagan.
@@ -40,3 +52,9 @@ Biznes jarayonlarini boshqarish. CQRS uchun MediatR ishlatiladi.
 Ma'lumotlar bazasi, fayl tizimi va xavfsizlik (identity) tizimlari.
 ### 4. Qurilmalar Qatlami (Hardware)
 Fiskal printerlar, skanerlar va terminallar uchun umumiy interfeys.
+
+---
+
+## Texnik Tavsiyalar (.NET 10 va Desktop)
+- **Backend**: **.NET 10 (C#)** eng to'g'ri tanlov. Qurilmalar bilan ishlash (Serial/USB) va yuqori unumdorlik (performance) uchun juda mos.
+- **Desktop**: **WPF + DevExpress** WinForms'ga qaraganda ancha afzal. WPF'dagi MVVM pattern "Clean Architecture" bilan mukammal integratsiya bo'ladi va dizayn jihatidan ancha premium ko'rinish beradi.
