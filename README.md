@@ -1,75 +1,32 @@
-# 🏪 ModernPOS - Modern Satış Noktası Sistemi
-# 🏪 ModernPOS - Zamonaviy Savdo Nuqtasi Tizimi
+# Modern POS Ecosystem
 
-[![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?logo=dotnet)](https://dotnet.microsoft.com/)
-[![SQL Server](https://img.shields.io/badge/SQL%20Server-2022-CC2927?logo=microsoft-sql-server)](https://www.microsoft.com/sql-server)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+This project aims to rebuild the `GBS_Decomp` features using modern technologies and Clean Architecture.
 
----
-
-## 🌍 Dil / Til | Language
-- [🇹🇷 Türkçe](#turkish)
-- [🇺🇿 O'zbekcha](#uzbek)
+## 🌍 Language Options / Dil Seçenekleri / Til Tanlovi
+- [English Roadmap](#english-roadmap) | [English Architecture](#english-architecture)
+- [Türkçe Yol Haritası](#türkçe-yol-haritası) | [Türkçe Mimari](#türkçe-mimari)
+- [O'zbek Yol Xaritasi](#ozbek-yol-xaritasi) | [O'zbek Arxitexturasi](#ozbek-arxitexturasi)
 
 ---
 
-<a name="turkish"></a>
-# 🇹🇷 TÜRKÇE
+## 🚀 Tech Stack
+- **Backend**: .NET 10 (C# 14/15)
+- **Database**: PostgreSQL / SQL Server (EF Core)
+- **Desktop**: C# + DevExpress (WPF/WinForms)
+- **Web**: Angular 21
+- **Mobile**: Flutter 3.x+
 
-## 📋 Proje Hakkında
+## 📚 Documentation
+- [ROADMAP.md](ROADMAP.md)
+- [ARCHITECTURE.md](ARCHITECTURE.md)
 
-**ModernPOS**, modern teknolojilerle geliştirilmiş, kapsamlı bir **Satış Noktası (Point of Sale)** sistemidir. Perakende mağazalar, marketler, cafe ve restoranlar için tasarlanmıştır.
+---
 
-### 🎯 Hedefler
+## English Overview
+A comprehensive POS system rebuild focusing on hardware integration and scalable multi-platform clients.
 
-- ✅ **Cross-platform:** Web, Desktop, Mobile, Tablet desteği
-- ✅ **Cloud-ready:** On-premise veya Cloud ortamda çalışabilir
-- ✅ **Microservices:** Modüler ve ölçeklenebilir mimari
-- ✅ **Real-time:** Anlık senkronizasyon ve bildirimler
-- ✅ **Modern UI/UX:** Kullanıcı dostu arayüz
-- ✅ **API-first:** Entegrasyon odaklı tasarım
+## Türkçe Özet
+Donanım entegrasyonu ve ölçeklenebilir çoklu platform istemcilerine odaklanan kapsamlı bir POS sistemi yeniden inşası.
 
-### 🛠️ Teknoloji Stack
-
-**Backend:**
-- .NET 8 (C# 12)
-- ASP.NET Core Web API
-- Entity Framework Core 8
-- SQL Server 2022
-- Redis (Distributed Cache)
-- RabbitMQ (Message Queue)
-- SignalR (Real-time)
-- Clean Architecture + DDD + CQRS
-
-**Frontend:**
-- Angular 19 (Web)
-- WPF + DevExpress (Desktop)
-- Flutter 3.x (Mobile)
-
-**DevOps:**
-- Docker & Docker Compose
-- Kubernetes
-- GitHub Actions (CI/CD)
-- Azure / AWS
-
-## 📁 Proje Yapısı
-
-- **docs/** - Dokümantasyon
-  - 01-PROJECT-PLAN.md - Master plan
-  - 02-ARCHITECTURE.md - Mimari tasarım
-  - 03-DATABASE-DESIGN.md - Veritabanı şeması
-  - 04-API-DOCUMENTATION.md - API dökümanları
-
-- **tasks/** - Görev yönetimi
-  - PHASE-1-TASKS.md - Faz 1 görevleri
-  - BACKLOG.md - Yapılacaklar
-
-- **src/** (yakında) - Kaynak kod
-  - ModernPOS.Domain/
-  - ModernPOS.Application/
-  - ModernPOS.Infrastructure/
-  - ModernPOS.API/
-
-- **docker-compose.yml** - Docker yapılandırması
-- **.gitignore** - Git ignore
-- **README.md** - Bu dosya
+## O'zbekcha Umumiy Malumot
+Qurilmalar integratsiyasi va masshtablanuvchi ko'p platformali mijozlarga yo'naltirilgan keng qamrovli POS tizimini qayta qurish.
